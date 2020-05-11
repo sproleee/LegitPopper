@@ -1,0 +1,62 @@
+@media (max-width: 600px) {
+  .lpc {
+    width: calc(100% - 35px) !important;
+  }
+}
+
+.lpc {
+  position: fixed;
+  right: 15px;
+  background: #fff;
+  bottom: 15px;
+  box-shadow: 0 2px 3px 0 #0000000f;
+  border: 1px solid #d6d6d6;
+  display: none;
+  z-index: 999;
+  text-align: center;
+}
+
+.lpcn {
+  overflow-y: scroll;
+  max-height: 80vh;
+}
+
+.lpcl {
+  position: absolute;
+  background: #fff;
+  line-height: 0;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.popper-bl {
+  right: inherit;
+  left: 20px;
+}
+
+.popper-tl {
+  right: inherit;
+  bottom: inherit;
+  left: 20px;
+  top: 20px;
+}
+
+.popper-tr {
+  right: 20px;
+  top: 20px;
+  bottom: inherit;
+}
+
+.l-tl {
+  left: 2px;
+  top: 2px;
+}
+
+.l-tr {
+  right: 2px;
+  top: 2px;
+}
+
+.lpcl img {
+  width: 8px;
+}
