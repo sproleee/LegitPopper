@@ -29,6 +29,7 @@ Legit Popper takes a configuration object with customizations for your popup. He
       fullWidth: // full width of popper window (same as 100% of width); default: false,
       padding: // popper padding (in px); default: 20,
     };
+```
 
 Customize any or all the values, pass it into the popper function and you're good to go.
 
