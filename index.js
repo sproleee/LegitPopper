@@ -2,14 +2,14 @@ import $ from "jquery";
 
 import { getDataFromStorage, setDataInStorage } from "./utils/localStorage";
 import { getDocumentHeight } from "./utils/document";
-import { LEGIT_CONFIG } from "./utils/config";
+import { CONFIG } from "./utils/config";
 import icon from "./styles/icon.png";
 import "./styles/legitPopper.css";
 
 class LegitPopper {
   constructor(options) {
-    this.options = options || LEGIT_CONFIG;
-    this.settings = LEGIT_CONFIG;
+    this.options = options;
+    this.settings = CONFIG;
   }
 
   init() {

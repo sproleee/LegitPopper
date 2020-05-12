@@ -1,4 +1,4 @@
-export const LEGIT_CONFIG = {
+export const CONFIG = {
   content: "Thanks for using Legit Popper. Your custom content goes here.",
   showWhen: 0,
   timeUntil: null,
