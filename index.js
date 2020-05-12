@@ -2,30 +2,14 @@ import $ from "jquery";
 
 import { getDataFromStorage, setDataInStorage } from "./utils/localStorage";
 import { getDocumentHeight } from "./utils/document";
+import { LEGIT_CONFIG } from "./utils/config";
 import icon from "./styles/icon.png";
 import "./styles/legitPopper.css";
 
 class LegitPopper {
   constructor(options) {
-    this.options = options;
-    this.settings = {
-      content: "Thanks for using Legit Popper. Your custom content goes here.",
-      showWhen: 0,
-      timeUntil: null,
-      onlyOnce: false,
-      closeButton: true,
-      closeButtonPosition: "right",
-      position: "br",
-      bgColor: "#fff",
-      textColor: "#444",
-      borderWidth: 1,
-      borderColor: "#d6d6d6",
-      borderRadius: 3,
-      boxShadow: true,
-      width: 0,
-      fullWidth: false,
-      padding: 20,
-    };
+    this.options = options || LEGIT_CONFIG;
+    this.settings = LEGIT_CONFIG;
   }
 
   init() {
